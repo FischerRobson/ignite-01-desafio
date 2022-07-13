@@ -43,6 +43,7 @@ main .content {
 }
 
 main .emptyList {
+  margin-top: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,5 +53,6 @@ main .emptyList {
 }
 
 main .emptyList p {
+  margin-bottom: 3px;
   font-weight: bold;
 }

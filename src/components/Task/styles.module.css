@@ -1,0 +1,55 @@
+.taskContainer {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 5px;
+
+  color: var(--gray-200);
+  background: var(--gray-500);
+
+  border-radius: 5px 10px;
+}
+
+.taskContainer + .taskContainer {
+  margin-top: 24px;
+}
+
+.taskCompleted {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.taskContainer .alignLeft {
+  width: 100%;
+  padding: 0px 5px;
+}
+
+.taskContainer .circle {
+  color: var(--blue);
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.taskContainer .circle:hover {
+  color: var(--blue-dark);
+}
+
+.taskContainer .circleCompleted {
+  color: var(--purple);
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.taskContainer .circleCompleted:hover {
+  color: var(--purple-dark);
+}
+
+.taskContainer .trash {
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.taskContainer .trash:hover {
+  color: var(--danger);
+}
